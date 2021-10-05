@@ -1,0 +1,204 @@
+/*Geral*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.conteiner {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+/*Cabeçalho*/
+
+.cabecalho {
+    color: #FFF;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
+    border-bottom: 1px solid #fff;
+
+    position: absolute;
+}
+
+.cabecalho__logo {
+ 
+    margin-bottom: 1rem;
+}
+
+.cabecalho__navegacao {
+    text-align: center;
+}
+
+.cabecalho__link {
+    font-size: 1.2rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+}
+
+.links {
+    padding-top: 15px;
+}
+
+/*Chamada*/
+.chamada  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #FFF;
+    text-align: center;
+    
+    background-color: #103D4A;
+
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.chamada__titulo {
+    padding-top: 1.25rem;
+    font-family: 'Roboto', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.chamada__texto {
+    font-size: 1.25rem;
+    line-height: normal;
+
+    margin: 0 auto 2.5rem;
+}
+
+/*Formulario Para Contato*/
+form {
+	margin: 40px 40px;
+}
+
+.contato_informacoes {
+    font-size: 2.90rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 60%;
+	padding: 15px 0px;
+	background: #000079;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #120560;
+}
+
+table {
+	margin: 20px 0px 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 15px 8px;
+}
+
+
+/*Footer*/
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #103D4A;
+
+
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.rodape__logo {
+    width: 60%;
+}
+
+.rodape__navegacao {
+    color: #FFF;
+    text-align: center;
+}
+
+.rodape__link {
+    display: inline-block;
+
+    margin: 0 .5rem .7rem;
+}
+
+/*Midias */
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
+
+    .chamada {
+        padding-top: 8.2rem;
+    }
+
+    .chamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .enviar {
+        width: 40%;
+    }
+
+    .rodape__logo {
+        width: 19.1rem;
+    }
+
+    .rodape__link {
+        font-size: 1.25rem;
+        padding: 0.25rem;
+    }
+}

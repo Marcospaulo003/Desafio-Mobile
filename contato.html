@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Gurmee Contato</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/contato.css" rel="stylesheet">
+    </head>
+    <body>
+       <header class="cabecalho conteiner">
+           <img src="img/Logo_Gurmee.png" width="250" height="75" alt="Logo Da Gurmee" class="cabecalho__logo" >
+           <nav class="cabecalho__navegacao">
+               <ul>
+                   <li class="cabecalho__link"><a href="index.html">Home</a></li>
+                   <li class="cabecalho__link"><a href="cardapio.html">Cardapio</a></li>
+                   <li class="cabecalho__link"><a href="localizacao.html">Localização</a></li>
+                   <li class="cabecalho__link"><a href="#">Contato</a></li>
+                   <li class="cabecalho__link"><a href="reviews.html">Reviews</a></li>
+               </ul>
+           </nav>
+       </header>
+       <main>
+           <section class="chamada conteiner">
+               <h1 class="chamada__titulo">Contato</h1>
+               <p class="chamada__texto">Aconteceu algum problema? ou quer falar algo pra gente? aqui esta a pagina de contato para falar com a gente</p>
+           </section>
+           <form>
+            <label for="nomesobrenome" class="contato_informacoes">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email" class="contato_informacoes">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone" class="contato_informacoes">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao"required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem" class="contato_informacoes">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato</legend>
+
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                    
+                </fieldset>
+                <input type="submit" value="Enviar Formulario" class="enviar">
+				</form>
+		</main>
+        </main>
+        <footer class="rodape container">
+         <img src="img/Logo_Gurmee.png" alt="Logo da Gurmee" class="rodape__logo">
+         <div class="links">
+         <nav>
+             <ul class="rodape__navegacao">
+                 <li class="rodape__link"><a href="index.html">Home</a></li>
+                 <li class="rodape__link"><a href="cardapio.html">Cardapio</a></li>
+                 <li class="rodape__link"><a href="localizacao.html">localização</a></li>
+                 <li class="rodape__link"><a href="contato.html">Contatos</a></li>
+                 <li class="rodape__link"><a href="reviews.html">Reviews</a></li>
+             </ul>
+         </nav>
+         </div>
+     </footer>
+     </body>
+ </html>
